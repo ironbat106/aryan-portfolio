@@ -31,7 +31,7 @@ const Home = () => {
                 <div className="hidden sm:flex gap-8">
                     <a
                         href="#about"
-                        className="hover:text-blue-400 transition-colors px-4 py-2"
+                        className="hover:text-blue-400 cursor-pointer transition-colors px-4 py-2"
                         data-aos="fade-up"
                         onClick={(e) => {
                             e.preventDefault();
@@ -42,7 +42,7 @@ const Home = () => {
                     </a>
                     <a
                         href="#skills"
-                        className="hover:text-blue-400 transition-colors px-4 py-2"
+                        className="hover:text-blue-400 cursor-pointer transition-colors px-4 py-2"
                         data-aos="fade-up"
                         onClick={(e) => {
                             e.preventDefault();
@@ -53,7 +53,7 @@ const Home = () => {
                     </a>
                     <a
                         href="#projects"
-                        className="hover:text-blue-400 transition-colors px-4 py-2"
+                        className="hover:text-blue-400 cursor-pointer transition-colors px-4 py-2"
                         data-aos="fade-up"
                         onClick={(e) => {
                             e.preventDefault();
@@ -64,11 +64,11 @@ const Home = () => {
                     </a>
                     {/* Book a call as a link */}
                     <a
-                        href="mailto:aryanahadateeq02@gmail.com"
-                        className="bg-black text-white px-5 py-2 rounded-md hover:bg-gray-800 transition-colors"
+                        href="#contact"
+                        className="bg-black text-white px-5 py-2 rounded-md hover:bg-gray-800 transition-colors cursor-pointer"
                         data-aos="fade-up"
                     >
-                        Book a call
+                        Contact Me
                     </a>
                 </div>
             </nav>
@@ -105,7 +105,7 @@ const Home = () => {
                                     aria-label="LinkedIn"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:text-blue-400 transition-colors"
+                                    className="hover:text-blue-400 transition-colors cursor-pointer"
                                 >
                                     <FaLinkedin className="text-white text-3xl hover:scale-110 transition-transform" />
                                 </a>
@@ -114,7 +114,7 @@ const Home = () => {
                                     aria-label="GitHub"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:text-gray-400 transition-colors"
+                                    className="hover:text-gray-400 transition-colors cursor-pointer"
                                 >
                                     <FaGithub className="text-white text-3xl hover:scale-110 transition-transform" />
                                 </a>
@@ -123,7 +123,7 @@ const Home = () => {
                                     aria-label="Facebook"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:text-blue-600 transition-colors"
+                                    className="hover:text-blue-600 transition-colors cursor-pointer"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -138,12 +138,13 @@ const Home = () => {
                             </div>
                         </nav>
 
-                        {/* Resume Download Button */}
+                        {/* Resume View Button */}
                         <div className="mt-6">
                             <a
-                                href="https://i.ibb.co.com/27nSPSD4/Aryan-Ahad-Ateeq-CV-Plain-1.png" // The image link you provided
-                                target="_blank" // Opens the image in a new tab
-                                className="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
+                                href="https://i.ibb.co/27nSPSD4/Aryan-Ahad-Ateeq-CV-Plain-1.png"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer"
                             >
                                 View Resume
                             </a>

@@ -80,7 +80,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="bg-black text-white py-16">
+    <div id="skills" className="bg-black text-white py-16">
       <div className="text-center mb-12" data-aos="fade-up">
         <h2 className="text-4xl md:text-5xl font-bold">
           My Skills in{" "}

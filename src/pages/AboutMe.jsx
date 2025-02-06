@@ -9,7 +9,7 @@ const AboutMe = () => {
     }, []);
 
     return (
-        <div className="bg-black text-white py-20">
+        <div id='about' className="bg-black text-white py-20">
             <h2
                 className="text-center text-4xl md:text-5xl font-extrabold mb-12"
                 data-aos="fade-up"
@@ -29,7 +29,7 @@ const AboutMe = () => {
                         <li>- Currently pursuing a Computer Science degree</li>
                         <li>- CGPA of 3.27, aiming for 3.50+</li>
                         <li>- Experience in C++, Java, SQL, HTML</li>
-                        <li>- Proficient in MERN</li>
+                        <li>- Proficient in MERN Stack</li>
                         <li>- Passionate about Software Engineering</li>
                     </ul>
                 </div>

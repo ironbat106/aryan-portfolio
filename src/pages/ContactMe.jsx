@@ -11,7 +11,7 @@ const ContactMe = () => {
     }, []);
 
     return (
-        <div className="flex flex-col min-h-screen bg-black text-white">
+        <div id="contact" className="flex flex-col min-h-screen bg-black text-white">
             <div className="flex-1 flex flex-col justify-center items-center p-8">
                 <div className="max-w-6xl w-full flex flex-col md:flex-row items-center gap-8">
                     {/* Lottie Animation */}

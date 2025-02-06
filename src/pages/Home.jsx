@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-purple-900 text-white relative overflow-hidden">
             {/* Navigation */}
-            <nav className="flex justify-between items-center py-6 px-12" data-aos="fade-down">
+            <nav className="flex justify-between items-center py-6 px-6 sm:px-12" data-aos="fade-down">
                 <div className="flex items-center gap-2">
                     {/* Lottie Animation Logo */}
                     <Lottie animationData={A} className="w-12 h-12" />
@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="flex gap-8">
+                <div className="hidden sm:flex gap-8">
                     <a
                         href="#about"
                         className="hover:text-blue-400 transition-colors px-4 py-2"
@@ -74,16 +74,16 @@ const Home = () => {
             </nav>
 
             {/* Main Banner Content */}
-            <div className="flex items-center justify-center min-h-screen px-12 py-24 text-left" data-aos="fade-up">
-                <div className="flex flex-row items-center justify-between w-full max-w-6xl mx-auto gap-x-12">
+            <div className="flex items-center justify-center min-h-screen px-6 sm:px-12 py-24 text-left" data-aos="fade-up">
+                <div className="flex flex-col sm:flex-row items-center justify-between w-full max-w-6xl mx-auto gap-x-12 gap-y-12 sm:gap-y-0">
                     {/* Left Side: Text Content */}
-                    <div className="w-1/2">
+                    <div className="w-full sm:w-1/2">
                         <div className="mb-4 text-3xl font-semibold text-gray-100">
                             Building Digital Experiences with Precision:
                             <span className="text-blue-400"> Aryan Ahad Ateeq</span>
                         </div>
 
-                        <h1 className="text-6xl font-bold leading-tight mb-6">
+                        <h1 className="text-4xl sm:text-6xl font-bold leading-tight mb-6">
                             <span className="bg-gradient-to-r from-purple-500 to-orange-500 bg-clip-text text-transparent">
                                 <Typewriter
                                     words={['Web Developer', 'Software Engineer', 'Gamer', 'Video Editor']}
@@ -97,10 +97,9 @@ const Home = () => {
                             </span>
                         </h1>
 
-
                         {/* Social Media Links */}
                         <nav>
-                            <div className="flex gap-6 mt-4">
+                            <div className="flex gap-4 sm:gap-6 mt-4">
                                 <a
                                     href="https://www.linkedin.com/in/aryan-ahad-ateeq"
                                     aria-label="LinkedIn"
@@ -148,16 +147,15 @@ const Home = () => {
                             >
                                 View Resume
                             </a>
-
                         </div>
                     </div>
 
                     {/* Right Side: Profile Picture */}
-                    <div className="w-1/2 flex justify-center">
+                    <div className="w-full sm:w-1/2 flex justify-center">
                         <img
                             src="./assets/aryanaa-removebg-preview.png"
                             alt="Aryan Ahad Ateeq"
-                            className="rounded-full border-4 border-blue-500 max-w-md shadow-lg"
+                            className="rounded-full border-4 border-blue-500 max-w-md shadow-lg mx-auto"
                         />
                     </div>
                 </div>
